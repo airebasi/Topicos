@@ -21,11 +21,11 @@ public class Cuestionario extends JFrame
 	public int NumeroPregunta;
 	public int RespuestasCorrectas = 0;
 	public String CadenaResultado = "";
-	public String Pregunta1 = "1.-Hasta el momento, ¿Cuantas versiones de Java hay?";
-	public String Pregunta2 = "2.-En Java, ¿Como se declara un foreach?";
-	public String Pregunta3 = "3.-¿Que diferencia tiene el string de Java con C#?";
-	public String Pregunta4 = "4.-¿Cual de estas caracteristicas no pertenece a Java?";
-	public String Pregunta5 = "5.-¿En que programa esta hecho este programa?";
+	public String Pregunta1 = "1.-Hasta el momento, Â¿Cuantas versiones de Java hay?";
+	public String Pregunta2 = "2.-En Java, Â¿Como se declara un foreach?";
+	public String Pregunta3 = "3.-Â¿Que diferencia tiene el string de Java con C#?";
+	public String Pregunta4 = "4.-Â¿Cual de estas caracteristicas no pertenece a Java?";
+	public String Pregunta5 = "5.-Â¿En que programa esta hecho este programa?";
 
 	public static void main(String[] args) 
 	{
@@ -309,7 +309,7 @@ public class Cuestionario extends JFrame
 			@Override
 			public void mouseClicked(MouseEvent e) 
 			{
-				
+				System.exit(0);
 			}
 		});
 		btnSalir.setBounds(335, 160, 89, 23);
