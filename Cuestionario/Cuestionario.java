@@ -309,7 +309,7 @@ public class Cuestionario extends JFrame
 			@Override
 			public void mouseClicked(MouseEvent e) 
 			{
-				System.exit(0);
+			   System.exit(0);
 			}
 		});
 		btnSalir.setBounds(335, 160, 89, 23);
